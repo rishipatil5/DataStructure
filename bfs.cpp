@@ -126,7 +126,7 @@ int main() {
 
     Graph g(nodes, edges);
     g.initgraph();
-
+    cout<< "Adjacency List :"<<endl;
     g.display();
 
     cout << "\nEnter starting vertex for BFS: ";
@@ -135,3 +135,4 @@ int main() {
 
     return 0;
 }
+
